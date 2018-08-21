@@ -127,9 +127,9 @@
               
                 
                 <li><a
-                  href='#validatefirstargistype'
+                  href='#result'
                   class="">
-                  validateFirstArgIsType
+                  result
                   
                 </a>
                 
@@ -170,26 +170,6 @@
                   href='#match'
                   class="">
                   match
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#reducetransforms'
-                  class="">
-                  reduceTransforms
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#allpathsfound'
-                  class="">
-                  allPathsFound
                   
                 </a>
                 
@@ -260,7 +240,7 @@
 
   
 
-  <p>Converts a potentially undefined result from
+  <p>[WINDOW, DATA_LAYER] Converts a potentially undefined result from
 calling the get accessor to an array</p>
 
  
@@ -331,7 +311,7 @@ calling the get accessor to an array</p>
 
   
 
-  <p>Converts a potentially undefined result from
+  <p>[WINDOW, DATA_LAYER] Converts a potentially undefined result from
 calling the get accessor to an object</p>
 
  
@@ -402,7 +382,7 @@ calling the get accessor to an object</p>
 
   
 
-  <p>Converts a potentially undefined result from
+  <p>[WINDOW, DATA_LAYER] Converts a potentially undefined result from
 calling the get accessor to string</p>
 
  
@@ -473,7 +453,7 @@ calling the get accessor to string</p>
 
   
 
-  <p>Converts a potentially undefined result from
+  <p>[WINDOW, DATA_LAYER] Converts a potentially undefined result from
 calling the get accessor to function</p>
 
  
@@ -544,7 +524,7 @@ calling the get accessor to function</p>
 
   
 
-  <p>Converts a potentially undefined result from
+  <p>[WINDOW, DATA_LAYER] Converts a potentially undefined result from
 calling the get accessor to boolean</p>
 
  
@@ -627,7 +607,7 @@ calling the get accessor to boolean</p>
   </div>
   
 
-  <p>Same function signature as ArrayPolyfill.map</p>
+  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.map</p>
 
  
   
@@ -697,7 +677,7 @@ calling the get accessor to boolean</p>
   </div>
   
 
-  <p>Same function signature as ArrayPolyfill.find</p>
+  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.find</p>
 
  
   
@@ -767,7 +747,7 @@ calling the get accessor to boolean</p>
   </div>
   
 
-  <p>Same function signature as ArrayPolyfill.find</p>
+  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.find</p>
 
  
   
@@ -837,7 +817,7 @@ calling the get accessor to boolean</p>
   </div>
   
 
-  <p>Wrapper around ElementWrapper.getText
+  <p>[DOM] Wrapper around ElementWrapper.getText
 Returns text content of HTML node by default
 Will retrieve value of src if img element
 Will retrieve value if input element</p>
@@ -910,7 +890,7 @@ Will retrieve value if input element</p>
   </div>
   
 
-  <p>Wrapper around ElementWrapper.getElement
+  <p>[DOM] Wrapper around ElementWrapper.getElement
 Returns raw queried HTML element, null if not found</p>
 
  
@@ -972,8 +952,8 @@ Returns raw queried HTML element, null if not found</p>
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id='validatefirstargistype'>
-      validateFirstArgIsType
+    <h3 class='fl m0' id='result'>
+      result
     </h3>
     
     
@@ -985,7 +965,7 @@ of given function is of the expected type</p>
 
  
   
-    <div class='pre p1 fill-light mt0'>validateFirstArgIsType($0: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>, fn: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function">function</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+    <div class='pre p1 fill-light mt0'>result</div>
    
   
   
@@ -997,69 +977,6 @@ of given function is of the expected type</p>
   
   
 
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>$0</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</code>
-	    
-          </div>
-          
-          <table class='mt1 mb2 fixed-table h5 col-12'>
-            <colgroup>
-              <col width='30%' />
-              <col width='70%' />
-            </colgroup>
-            <thead>
-              <tr class='bold fill-light'>
-                <th>Name</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody class='mt1'>
-              
-                <tr>
-  <td class='break-word'><span class='code bold'>$0.fn</span> <code class='quiet'>any</code>
-  </td>
-  <td class='break-word'><span></span></td>
-</tr>
-
-
-              
-                <tr>
-  <td class='break-word'><span class='code bold'>$0.type</span> <code class='quiet'>any</code>
-  </td>
-  <td class='break-word'><span></span></td>
-</tr>
-
-
-              
-            </tbody>
-          </table>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>fn</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function">function</a>)</code>
-	    function whose first arg is being validated
-
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-	    expected type for first function arg
-
-          </div>
-          
-        </div>
-      
-    </div>
   
 
   
@@ -1092,7 +1009,7 @@ of given function is of the expected type</p>
   </div>
   
 
-  <p>Finds the first email match in a given string
+  <p>[WINDOW, DOM, DATA_LAYER, COOKIE] Finds the first email match in a given string
 Will match {any non-whitespace}@{any non-whitespace}
 Does not check for domain</p>
 
@@ -1163,7 +1080,7 @@ Does not check for domain</p>
   </div>
   
 
-  <p>Finds the first 10 digit number in a given string after removing
+  <p>[WINDOW, DOM, DATA_LAYER, COOKIE] Finds the first 10 digit number in a given string after removing
 all non-numbers and leaving whitespace</p>
 
  
@@ -1234,7 +1151,7 @@ all non-numbers and leaving whitespace</p>
   </div>
   
 
-  <p>Returns payment types of PAYPAL, AMAZON and defaults to CREDIT_CARD
+  <p>[WINDOW, DOM, DATA_LAYER, COOKIE] Returns payment types of PAYPAL, AMAZON and defaults to CREDIT_CARD
 if 'paypal' and 'amazon' are not found in the input</p>
 
  
@@ -1305,7 +1222,9 @@ if 'paypal' and 'amazon' are not found in the input</p>
   </div>
   
 
-  
+  <p>[WINDOW, DOM, DATA_LAYER, COOKIE]
+Returns the first matching result for a given regex by default</p>
+
  
   
     <div class='pre p1 fill-light mt0'>match(result: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, regex: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp">RegExp</a>, groupToCapture: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
@@ -1359,217 +1278,6 @@ if 'paypal' and 'amazon' are not found in the input</p>
     
       <div class='py1 quiet mt1 prose-big'>Returns</div>
       <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>:
-        
-
-      
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='reducetransforms'>
-      reduceTransforms
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Takes an array of 'transform' objects, where 'name'
-maps to a predefined transform function and 'fn' is a custom anonymous function
-Returns closure that can be applied to an initial value</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>reduceTransforms(transforms: any): function (any?): any</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>transforms</span> <code class='quiet'>(any)</code>
-	    applied from left to right
-
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-    
-      <div class='py1 quiet mt1 prose-big'>Returns</div>
-      <code>function (any?): any</code>:
-        
-
-      
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='allpathsfound'>
-      allPathsFound
-    </h3>
-    
-    
-  </div>
-  
-
-  
- 
-  
-    <div class='pre p1 fill-light mt0'>allPathsFound($0: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>, currentPaths: any, targetPaths: any, exactPathMatch: any): any</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>$0</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</code>
-	    
-          </div>
-          
-          <table class='mt1 mb2 fixed-table h5 col-12'>
-            <colgroup>
-              <col width='30%' />
-              <col width='70%' />
-            </colgroup>
-            <thead>
-              <tr class='bold fill-light'>
-                <th>Name</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody class='mt1'>
-              
-                <tr>
-  <td class='break-word'><span class='code bold'>$0.currentPaths</span> <code class='quiet'>any</code>
-  
-    (default <code>[]</code>)
-  </td>
-  <td class='break-word'><span></span></td>
-</tr>
-
-
-              
-                <tr>
-  <td class='break-word'><span class='code bold'>$0.targetPaths</span> <code class='quiet'>any</code>
-  
-    (default <code>[]</code>)
-  </td>
-  <td class='break-word'><span></span></td>
-</tr>
-
-
-              
-                <tr>
-  <td class='break-word'><span class='code bold'>$0.exactPathMatch</span> <code class='quiet'>any</code>
-  
-    (default <code>false</code>)
-  </td>
-  <td class='break-word'><span></span></td>
-</tr>
-
-
-              
-            </tbody>
-          </table>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>currentPaths</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>targetPaths</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>exactPathMatch</span> <code class='quiet'>(any)</code>
-	    if true, current url path must exactly match target paths
-
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-    
-      <div class='py1 quiet mt1 prose-big'>Returns</div>
-      <code>any</code>:
         
 
       
