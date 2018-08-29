@@ -66,6 +66,12 @@
                         .toBoolean
                       </a></li>
                     
+                      <li><a
+                        href='#get_type_transformstonumber'
+                        class='regular pre-open'>
+                        .toNumber
+                      </a></li>
+                    
                     </ul>
                   
                   
@@ -597,6 +603,77 @@ calling the get accessor to boolean</p>
       </div>
     </div>
   
+    <div class='border-bottom' id='get_type_transformstonumber'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>toNumber(proxy)</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+
+  <p>[WINDOW, DATA_LAYER] Converts a potentially undefined result from
+calling the get accessor to number</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>toNumber(proxy: any): (<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined">undefined</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>)</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>proxy</span> <code class='quiet'>(any)</code>
+	    ResultProxy
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined">undefined</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>)</code>:
+        
+
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
 </div>
 
   
@@ -663,8 +740,8 @@ calling the get accessor to boolean</p>
 
   
 
-  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.map
-Returns an array where each element is the return value
+  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.map:
+returns an array where each element is the return value
 of invoking the callback on the original element</p>
 
  
@@ -735,8 +812,8 @@ of invoking the callback on the original element</p>
 
   
 
-  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.filter
-Returns an array of all elements that satisfies the predicate callback</p>
+  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.filter:
+returns an array of all elements that satisfies the predicate callback</p>
 
  
   
@@ -806,8 +883,8 @@ Returns an array of all elements that satisfies the predicate callback</p>
 
   
 
-  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.find
-Returns the first element in an array that satisfies the predicate callback</p>
+  <p>[WINDOW, DATA_LAYER, COOKIE] Same function signature as ArrayPolyfill.find:
+returns the first element in an array that satisfies the predicate callback</p>
 
  
   
@@ -931,14 +1008,14 @@ Returns the first element in an array that satisfies the predicate callback</p>
 
   
 
-  <p>[DOM] Wrapper around ElementWrapper.getText
-Returns text content of HTML node by default
-Will retrieve value of src if img element
-Will retrieve value if input element</p>
+  <p>[DOM] Wrapper around ElementWrapper.getText,
+returns text content of HTML node by default.
+Retrieves value of src if img element and
+value attribute if input element</p>
 
  
   
-    <div class='pre p1 fill-light mt0'>toText(elementWrapper: any): (any | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>)</div>
+    <div class='pre p1 fill-light mt0'>toText(elementWrapper: any): (any | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
    
   
   
@@ -971,7 +1048,7 @@ Will retrieve value if input element</p>
   
     
       <div class='py1 quiet mt1 prose-big'>Returns</div>
-      <code>(any | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>)</code>:
+      <code>(any | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>:
         
 
       
